@@ -1,0 +1,24 @@
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+
+[push]
+    default = simple
+
+[diff]
+    renames = "copies"
+    algorithm = patience
+
+[core]
+    pager = less -x4
+    excludesfile = ~/.gitignore_global
+    editor = vim -X
+
+[status]
+    showUntrackedFiles = all
+
+[user]
+	email = human.shield.117@gmail.com
+	name = Tim Retz

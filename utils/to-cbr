@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -e
+
+for folder in */
+do
+  rar a -r "${folder%/}.cbr" "$folder"
+done
