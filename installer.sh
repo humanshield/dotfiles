@@ -18,7 +18,7 @@ mkdir -p $HOME/.oh-my-zsh
 cp -R ./oh-my-zsh $HOME/.oh-my-zsh
 
 # Tmux
-cp ./tmux.conf ~/.tmux.conf
+cp ./tmux/tmux.conf ~/.tmux.conf
 
 # Utilities
-cp ./gitconfig ~/.gitconfig
+cp ./utils/gitconfig ~/.gitconfig
